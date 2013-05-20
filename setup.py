@@ -33,7 +33,7 @@ doctests = [doctest for doctest in find_doctests()
 
 
 setup(
-    name='flufl.bounce',
+    name='flufl-bounce-fc',
     version=__version__,
     namespace_packages=['flufl'],
     packages=find_packages(),
@@ -43,7 +43,7 @@ setup(
     description=description('README.rst'),
     long_description=long_description('README.rst', 'flufl/bounce/NEWS.rst'),
     license='LGPLv3',
-    url='http://launchpad.net/flufl.bounce',
+    url='http://github.com/futurecolors/flufl.bounce',
     download_url='https://launchpad.net/flufl.bounce/+download',
     install_requires = [
         'flufl.enum',
